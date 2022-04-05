@@ -1,12 +1,24 @@
-# Tags: latest, 0.18.0-debian-10-r97, 0.18.0, 0-debian-10, 0
+# Tags: latest, 0.18.0-debian-10-r102, 0.18.0, 0-debian-10, 0
 FROM bitnami/jsonnet:latest
-FROM bitnami/jsonnet:0.18.0-debian-10-r97
+FROM bitnami/jsonnet:0.18.0-debian-10-r102
 FROM bitnami/jsonnet:0.18.0
 FROM bitnami/jsonnet:0-debian-10
 FROM bitnami/jsonnet:0
 
 # Tags: _
 FROM bitnami/jsonnet:_
+
+# Tags: 0.18.0-debian-10-r101
+FROM bitnami/jsonnet:0.18.0-debian-10-r101
+
+# Tags: 0.18.0-debian-10-r100
+FROM bitnami/jsonnet:0.18.0-debian-10-r100
+
+# Tags: 0.18.0-debian-10-r99
+FROM bitnami/jsonnet:0.18.0-debian-10-r99
+
+# Tags: 0.18.0-debian-10-r97
+FROM bitnami/jsonnet:0.18.0-debian-10-r97
 
 # Tags: 0.18.0-debian-10-r96
 FROM bitnami/jsonnet:0.18.0-debian-10-r96
@@ -79,18 +91,3 @@ FROM bitnami/jsonnet:0.18.0-debian-10-r73
 
 # Tags: 0.18.0-debian-10-r72
 FROM bitnami/jsonnet:0.18.0-debian-10-r72
-
-# Tags: 0.18.0-debian-10-r71
-FROM bitnami/jsonnet:0.18.0-debian-10-r71
-
-# Tags: 0.18.0-debian-10-r70
-FROM bitnami/jsonnet:0.18.0-debian-10-r70
-
-# Tags: 0.18.0-debian-10-r69
-FROM bitnami/jsonnet:0.18.0-debian-10-r69
-
-# Tags: 0.18.0-debian-10-r68
-FROM bitnami/jsonnet:0.18.0-debian-10-r68
-
-# Tags: 0.18.0-debian-10-r67
-FROM bitnami/jsonnet:0.18.0-debian-10-r67
